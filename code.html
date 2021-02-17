@@ -1,0 +1,246 @@
+<!--
+
+********************************************************************  THIS IS THE HTML  *******************************************************************************************
+
+<DOCTYPE HTML></DOCTYPE>
+<html lang="eng">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="description" content="People from all over the world come here to .">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+
+<body>
+    <div id="banner">
+        <img src="images/welcome_to_heavemly.jpg" alt="Welcome to Heavenly" width="200" height="110">
+        <h1>Lake Tahoe, the place that has it all </h1>
+    </div>
+    <div id="spacer">
+        <img src="images/welcome_to_taos.jpg" alt="Welcome to Taos" width="200" height="141">
+        <h1>Lake Tahoe, the place that has it all. From skiing in the winters, to wake boarding in the summer, Lake Tahoe is known worldwide for its endless, year-round fun.</h1>
+    </div>
+    <div id="main">
+        <div id="navbar">
+            <ul>
+                <li class="changeBackground"><a href="taos.html">Home</a></li>
+                <li class="changeBackground"><a href="winter.html">Winter</a></li>
+                <li class="changeBackground"><a href="summer.html">Summer</a></li>
+            </ul>
+        </div>
+        <div id="content">
+            <h2>One of the most interesting towns in the world.</h2>
+            <p>Take a moment to explore Taos and discover the beauty and the culture. Take a Hmoment to explore Taos and discover the beauty, the culture, the people that make Taos and Northern New Mexico the Land of Enchantment.</p>
+            <p>Seated on the high-desert mesa at the foot of the Sangre de Cristo Mountains, Taos is rich with art and steeped in history. Home to Taos Pueblo, the Village of Taos Ski Valley and a colorful array of surrounding communities, Taos County has something for everyone.</p>
+            <p>Step into the history of Taos, New Mexico - this storied land has seen amazing people and events.</p>
+            <p>The Enchanted Circle is an 86 mile drive through gorgeous mountain peaks and valleys. This Enchanted Circle links the towns of Taos, Questa, Red River, Eagle Nest, Angel Fire and back to Taos! Take a picnic lunch to enjoy the beauty and serenity of Bobcat Pass or while fishing at one of the lakes around Eagle Nest or Angel Fire.</p>
+            <p>You could spend a month exploring Taos and never see the same thing twice.</p>
+        </div>
+        <div id="sidebar">
+            <table class="standout" id="sidebar">
+                <tr>
+                    <th>
+                        <h2>Restuarants</h2>
+                        <h3>Emeralddd</h3>
+                        <p><a href="http://www.docmartinsrestaurant.com">docmartinsrestaurant.com</a><br>
+                            575-758-1977<br>
+                            located at The Taos Inn, 125 Paseo del Pueblo Norte, Taos, NM 87571</p>
+                        <h3></h3>
+                        <p><a href="http://www.sagebrushinn.com">sagebrushinn.com</a><br>
+                            575-758-2254<br>
+                            1508 Paseo del Pueblo Sur, (in the Sagebrush Inn), Taos, NM 87571/p>
+                        <h3>Mosaic Fine Dining</h3>
+                        <p><a href="http://www.mosaicfinedining.com">mosaicfinedining.com</a><br>
+                            575-751-3438<br>
+                            108A South Plaza, Taos, NM 87571</p>
+                        <h3>Sabroso Restaurant & Bar</h3>
+                        <p><a href="http://www.sabrosotaos.com">sabrosotaos.com</a><br>
+                            575-776-3333<br>
+                            470 State Highway 150, PO Box 505, Arroyo Seco, NM 87514</p>
+                    </th>
+            </table>
+        </div>
+    </div>
+    <div id="freespace">    
+         <ul> 
+            <li><a href="https://www.google.com/maps/d/viewer?msa=0&mid=zEh51dOo9RKA.kkUGFqtDLTSY" target="_blank">Map</a></li>
+            <li><a href="http://booktaos.com/" target="_blank">Hotel reservations</a></li>
+            <li><a href="http://www.skitaos.org/weather" target="_blank">Ski conditions</a></li>
+            <li><a href="http://www.realtor.com/realestateandhomes-search/Taos_NM" target="_blank">Real estate</a></li>
+            <li><a href="http://www.city-data.com/city/Taos-New-Mexico.html" target="_blank">Statistics</a></li>
+            <li><a href="http://www.weather.com/weather/tenday/l/Taos+NM+87571:4:US" target="_blank">Weather</a></li>
+        </ul>
+    </div>
+    <div id="footer">
+        <ul>
+            <li><a href="https://www.google.com/maps/d/viewer?msa=0&mid=zEh51dOo9RKA.kkUGFqtDLTSY" target="_blank">Map</a></li>
+            <li><a href="http://booktaos.com/" target="_blank">Hotel reservations</a></li>
+            <li><a href="http://www.skitaos.org/weather" target="_blank">Ski conditions</a></li>
+            <li><a href="http://www.realtor.com/realestateandhomes-search/Taos_NM" target="_blank">Real estate</a></li>
+            <li><a href="http://www.city-data.com/city/Taos-New-Mexico.html" target="_blank">Statistics</a></li>
+            <li><a href="http://www.weather.com/weather/tenday/l/Taos+NM+87571:4:US" target="_blank">Weather</a></li>
+        </ul>
+    </div>
+</body></html>
+
+********************************************************************  THIS IS THE CSS  ********************************************************************************************
+
+body {
+    width: 100%;
+    font-size: 1em;
+}
+
+div#banner {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: darkgrey;
+}
+
+div#banner img,
+div#spacer img {
+    float: left;
+}
+
+div#spacer {
+    width: 100%;
+    visibility: hidden;
+    margin-top: -1.5%;
+}
+
+div#banner h1,
+div#spacer h1 {
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 2em;
+    color: black;
+    padding-left: 35%;
+}
+
+div#main {
+    width: 75%;
+    margin: 0 auto 0 auto;
+}
+
+div#navbar {
+    clear: both;
+    width: 60%;
+    margin-left: 6%;
+}
+
+div#navbar ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+div#navbar ul li {
+    text-align: center;
+    display: inline;
+    width: 30%;
+    float: left;
+    margin: 0 .2em 0 0;
+}
+
+div#navbar ul li a {
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 1.1em;
+    font-weight: 900;
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: .3em;
+}
+
+li.changeBackground {
+    background-color: royalblue;
+}
+
+li.changeBackground:hover {
+  background-color: #1f1cd0;
+}
+
+div#content {
+    width: 68%;
+    float: left;
+}
+
+div#sidebar {
+    width: 29%;
+    float: right;
+}
+
+table.standout {
+    border-left: 5px dotted royalblue;
+    border-right: 5px dotted royalblue;
+}
+
+h2.emphasized {
+    font-family: Tahoma, Geneva, sans-serif;
+    color: #333333;
+}
+
+p,
+ul {
+    font-family: Georgia, Times, serif;
+    font-size: 1.3em;
+    color: #333333;
+}
+
+div#sidebar p {
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 1em;
+    color: skyblue;
+}
+
+div#sidebar h3 {
+    font-family: Georgia, Times, serif;
+    color: green;
+    margin-bottom: -5%;
+}
+
+div#freespace {
+    clear: both;
+    height: 200px;
+    width: 100%;
+    background-color: black;
+    visibility: hidden;
+}
+
+div#footer {
+    clear: both;
+    width: 100%;
+    height: 75px;
+    background-color: black;
+}
+
+div#footer ul {
+    list-style-type: none;
+    padding-left: 20%;
+}
+
+div#footer ul li {
+    display: inline;
+    float: left;
+    margin: 0 .75em 0 0;
+}
+
+div#footer ul li a {
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 1.2em .3em .3em .3em;
+}
+
+img.forWrap {
+    float: left;
+    margin: 0 1em .5em 0;
+}
+
+ul li {
+    margin-bottom: .25em;
+}
+
+-->
